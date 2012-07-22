@@ -21,4 +21,5 @@ no_index:
 requires: {}
 resources:
   license: http://dev.perl.org/licenses/
+  repository: git://github.com/Shinpeim/Acme--NyanDoku.git
 version: 0.01

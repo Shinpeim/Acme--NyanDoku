@@ -39,7 +39,10 @@
    "resources" : {
       "license" : [
          "http://dev.perl.org/licenses/"
-      ]
+      ],
+      "repository" : {
+         "url" : "git://github.com/Shinpeim/Acme--NyanDoku.git"
+      }
    },
    "version" : "0.01"
 }
