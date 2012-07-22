@@ -1,7 +1,7 @@
 use inc::Module::Install;
 name 'Acme-NyanDoku';
 all_from 'lib/Acme/NyanDoku.pm';
-
+readme_from;
 # requires '';
 
 tests 't/*.t';

@@ -1,27 +1,28 @@
-This is Perl module Acme::NyanDoku.
+NAME
+    Acme::NyanDoku - NyanDoku-ize your code
 
-INSTALLATION
+SYNOPSIS
+      use Acme::NyanDoku;
+      print "nyaaaaaaaaaaan!!!!";
 
-Acme::NyanDoku installation is straightforward. If your CPAN shell is set up,
-you should just be able to do
+DESCRIPTION
+    The first time you run a program under use Acme::NyanDoku, the module
+    rewrite your source file. like this:
 
-    % cpan Acme::NyanDoku
+      use Acme::NyanDoku;
+      NyAn nyan nyan nYAN nyAn nYAN NyaN nYAn NYAn nYAn nYan nYAN nyan nyAn nyAn nyAn NYAn nYAn NyaN nYAN nyaN nYAn nyaN nYAn nyaN nYAn nyaN nYAn nyaN nYAn nyaN nYAn nyaN nYAn nyaN nYAn nyaN nYAn nyaN nYAn nyaN nYAn NYAn nYAn nyaN nyAn nyaN nyAn nyaN nyAn nyaN nyAn nyAn nyAn NyAN nyAN NyAn nyan
 
-Download it, unpack it, then build it as per the usual:
+    Of cause, you can execute NyanDoku-ized source.
 
-    % perl Makefile.PL
-    % make && make test
+WHAT IS NYANDOKU
+    "nyandoku" is a parody of "nandoku". "nandoku" means "obfuscation" in
+    Japanese. "nyan" means "meow" in Japanese. YES, WE REALY LOVE
+    CATS!!!!!!!
 
-Then install it:
+AUTHOR
+    Shinpei Maruyama <shinpeim {at} gmail.com>
 
-    % make install
+LICENSE
+    This library is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself.
 
-DOCUMENTATION
-
-Acme::NyanDoku documentation is available as in POD. So you can do:
-
-    % perldoc Acme::NyanDoku
-
-to read the documentation online with your favorite pager.
-
-Shinpei Maruyama

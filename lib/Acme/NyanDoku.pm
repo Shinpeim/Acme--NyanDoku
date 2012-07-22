@@ -61,6 +61,7 @@ close $wfp;
 exit;
 
 1;
+
 __END__
 
 =head1 NAME
@@ -88,8 +89,6 @@ Of cause, you can execute NyanDoku-ized source.
 =head1 AUTHOR
 
 Shinpei Maruyama E<lt>shinpeim {at} gmail.comE<gt>
-
-=head1 SEE ALSO
 
 =head1 LICENSE
 
