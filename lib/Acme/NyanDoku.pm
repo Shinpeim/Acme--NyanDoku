@@ -29,7 +29,6 @@ sub nyandoku{
     my $original_code = shift;
     my $hex_string = unpack "h*", $original_code;
     my @hexes = split "", $hex_string;
-    use Data::Dumper;
 
     my @nyans = map {$hex_to_nyan->{$_}} @hexes;
 
